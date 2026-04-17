@@ -1,10 +1,10 @@
 const products = [
-  {name:"Men Shirt", price:499, img:"https://via.placeholder.com/250"},
-  {name:"Women Dress", price:799, img:"https://via.placeholder.com/250"},
-  {name:"Shoes", price:999, img:"https://via.placeholder.com/250"},
-  {name:"Watch", price:1499, img:"https://via.placeholder.com/250"},
-  {name:"Kurti", price:699, img:"https://via.placeholder.com/250"},
-  {name:"Jeans", price:899, img:"https://via.placeholder.com/250"}
+  {name:"Men Shirt", price:499, img:"./men.jpg"},
+  {name:"Women Dress", price:799, img:"./women.jpg"},
+  {name:"Shoes", price:999, img:"./shose.jpg"},
+  {name:"Watch", price:1499, img:"./watch.jpg"},
+  {name:"Kurti", price:699, img:"./kurti.jpg"},
+  {name:"Jeans", price:899, img:"./jens.jpg"}
 ];
  
 let cart = JSON.parse(localStorage.getItem("cart")) || [];

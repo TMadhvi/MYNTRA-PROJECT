@@ -356,6 +356,8 @@ toast.style.display = "none";
 }
 
 document.getElementById("search").addEventListener("keyup", function () {
+    
+    console.log("Search Working");
 
     let value = this.value.toLowerCase();
 
